@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package manager;
+
+option go_package = "./proto;manager";
+
+
+service Manager {
+  rpc
+}
